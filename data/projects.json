@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Food Ordering and Delivery Application",
+    "image": "assets/images/project 1.png",
+    "description": "Developed a full-stack food ordering application with a responsive React.js frontend and Spring Boot REST APIs. Implemented JWT-based authentication, role-based access for users and administrators, food management, cart operations, order placement, payment processing, order tracking, and customer reviews. Integrated MySQL and Hibernate JPA for secure and efficient data management.",
+    "tech": [
+      "React.js",
+      "Java",
+      "Spring Boot",
+      "REST APIs",
+      "Hibernate JPA",
+      "MySQL",
+      "JWT",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "live": "http://foodapp-dev-455.s3-website.eu-north-1.amazonaws.com/home",
+    "github": "https://github.com/shiwamshete24-cmyk/FoodApp"
+  },
+  {
+    "name": "StudyNotion – Ed-Tech Learning Platform",
+    "image": "assets/images/project 2.png",
+    "description": "Developed a full-stack e-learning platform using React.js, Redux, Node.js, Express.js, and MongoDB to facilitate online learning. Implemented user authentication, role-based access, course management, instructor profiles, student enrollment, course content delivery, video-based learning, course progress tracking, ratings, reviews, and payment processing. Designed RESTful APIs for efficient data management.",
+    "tech": [
+      "React.js",
+      "Redux",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Tailwind CSS"
+    ],
+    "live": "https://studynotion-codetech.vercel.app/",
+    "github": "https://github.com/shiwamshete24-cmyk/studynotion-codetech"
+  },
+  {
+    "name": "Emotion Detection from Text",
+    "image": "assets/images/project 3.png",
+    "description": "Developed a text-based emotion classification model using a Bidirectional GRU (BiGRU) neural network to identify six emotions: joy, sadness, love, anger, fear, and surprise. Implemented text preprocessing, tokenization, sequence padding, and model evaluation using TensorFlow and Keras. Deployed the trained model using FastAPI REST APIs to return predicted emotions, confidence scores, and emotion-wise probabilities.",
+    "tech": [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "BiGRU",
+      "NLP",
+      "Pandas",
+      "NumPy",
+      "FastAPI",
+      "Scikit-learn"
+    ],
+    "live": "https://emoji-analysis-prediction.onrender.com/",
+    "github": "https://github.com/shiwamshete24-cmyk/Emotion-Detection-from-Text"
+  },
+  {
+    "name": "Student Social Media and Mental Health Prediction",
+    "image": "assets/images/project 4.png",
+    "description": "Developed a machine learning model to predict students' mental health scores using social media usage, sleep, stress, and lifestyle factors. Implemented data preprocessing, exploratory data analysis, and Random Forest hyperparameter tuning using RandomizedSearchCV. Deployed the trained model using FastAPI to provide real-time predictions through REST APIs.",
+    "tech": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "FastAPI",
+      "Pydantic",
+      "Seaborn",
+      "Matplotlib",
+      "Joblib"
+    ],
+    "live": "https://mental-health-score-1-y4dl.onrender.com",
+    "github": "https://github.com/shiwamshete24-cmyk/Mental-Health-Score"
+  },
+  {
+    "name": "Laptop E-Commerce Website",
+    "image": "assets/images/project 5.png",
+    "description": "Developed a responsive laptop e-commerce website with product listings, product details, user authentication, and an interactive shopping experience. Implemented frontend functionality using HTML, CSS, JavaScript, and Bootstrap, with Java Servlets and JSP for server-side processing and JDBC for database connectivity.",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "Java Servlets",
+      "JSP",
+      "JDBC",
+      "MySQL"
+    ],
+    "live": "https://github.com/shiwamshete24-cmyk/eccomerce-laptop-website",
+    "github": "https://github.com/shiwamshete24-cmyk/eccomerce-laptop-website"
+  },
+  {
+    "name": "Cake Ordering Website",
+    "image": "assets/images/project 6.png",
+    "description": "Developed a responsive cake ordering website using React.js with reusable components and an interactive user interface. Integrated REST APIs and JSON Server to fetch and manage cake product data, display product listings, and support dynamic product interactions.",
+    "tech": [
+      "React.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "REST APIs",
+      "JSON Server",
+      "Axios",
+      "Bootstrap"
+    ],
+    "live": "https://github.com/shiwamshete24-cmyk/CakeShop-Website",
+    "github": "https://github.com/shiwamshete24-cmyk/CakeShop-Website"
+  },
+  {
+  "name": "Second-Hand Car Price Prediction and E-Commerce Platform",
+  "image": "assets/images/project 7.png",
+  "description": "Developed a full-stack web application combining a second-hand car marketplace with machine learning-based resale price prediction. Implemented car listing and browsing features to help buyers explore used vehicles and sellers showcase their cars. Integrated a trained machine learning model to estimate resale prices based on vehicle attributes, supporting more informed buying and selling decisions.",
+  "tech": [
+    "Python",
+    "Machine Learning",
+    "Scikit-learn",
+    "Pandas",
+    "NumPy",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "PHP",
+    "MySQL"
+  ],
+  "live": "https://github.com/shiwamshete24-cmyk/Second-Hand-Car-Price-Prediction-and-E-Commerce-Platform",
+  "github": "https://github.com/shiwamshete24-cmyk/Second-Hand-Car-Price-Prediction-and-E-Commerce-Platform"
+}
+]

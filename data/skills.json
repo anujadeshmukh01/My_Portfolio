@@ -1,0 +1,145 @@
+{
+    "Frontend": [
+        {
+            "name": "React"
+        },
+        {
+            "name": "Redux Toolkit"
+        },
+        {
+            "name": "HTML"
+        },
+        {
+            "name": "CSS"
+        },
+        {
+            "name": "JavaScript"
+        },
+        {
+            "name": "JQuery"
+        },
+        {
+            "name": "Tailwind CSS"
+        },
+        {
+            "name": "Bootstrap"
+        },
+        {
+            "name": "Angular"
+        }
+    ],
+    "Backend": [
+        {
+            "name": "Java"
+        },
+        {
+            "name": "Servlet"
+        },
+        {
+            "name": "JSP"
+        },
+        {
+            "name": "JSTL"
+        },
+        {
+            "name": "JDBC"
+        },
+        {
+            "name": "Spring"
+        },
+        {
+            "name": "Spring Boot"
+        },
+        {
+            "name": "Hibernate"
+        },
+        {
+            "name": "Express.js"
+        },
+        {
+            "name": "PHP"
+        },
+        {
+            "name": "MongoDB"
+        },
+        {
+            "name": "SQL"
+        },
+        {
+            "name": "PL/SQL"
+        }
+    ],
+    "Programming Languages": [
+        {
+            "name": "Java"
+        },
+        {
+            "name": "JavaScript"
+        },
+        {
+            "name": "Python"
+        },
+        {
+            "name": "C++"
+        }
+    ],
+    "Core Computer Science": [
+        {
+            "name": "Operating Systems"
+        },
+        {
+            "name": "Database Management Systems"
+        },
+        {
+            "name": "Computer Networks"
+        },
+        {
+            "name": "Object-Oriented Programming"
+        },{
+            "name":"Machine Learning"
+        }
+    ],
+  "Tools & Platforms": [
+  {
+    "name": "Git"
+  },
+  {
+    "name": "GitHub"
+  },
+  {
+    "name": "VS Code"
+  },
+  {
+    "name": "Netlify"
+  },
+  {
+    "name": "Render"
+  },
+  {
+    "name": "Vercel"
+  },
+  {
+    "name": "Eclipse"
+  },
+  {
+    "name": "Spring Tool Suite (STS)"
+  },
+  {
+    "name": "XAMPP"
+  },
+  {
+    "name": "Jupyter Notebook"
+  }
+],
+    "Currently Learning": [
+        {
+            "name": "Generative AI"
+        },
+        {
+            "name": "Docker"
+        },
+        {
+            "name": "AWS"
+        }
+    ]
+}

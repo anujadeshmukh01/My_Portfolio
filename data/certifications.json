@@ -1,0 +1,79 @@
+[
+  {
+    "name": "• MERN Stack Web Development Certificate - CodeHelp",
+    "image": "assets/images/mernstack.png",
+    "description": "Successfully completed the MERN Stack Web Development program by CodeHelp, gaining practical knowledge of building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. Developed an understanding of frontend development, backend APIs, database integration, and creating responsive, interactive web applications.",
+    "skills": [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "REST APIs",
+      "Full Stack Web Development",
+      "Database Integration"
+    ]
+  },
+  {
+    "name": "• Full Stack Java Development Certificate",
+    "image": "assets/images/java full stack.png",
+    "description": "Successfully completed Full Stack Java Development training, gaining practical knowledge of Java programming, object-oriented programming, frontend technologies, backend development, and database management. Learned to build web applications by integrating frontend interfaces with Java-based backend services and relational databases.",
+    "skills": [
+      "Core Java",
+      "Object-Oriented Programming (OOP)",
+      "JDBC",
+      "Servlets",
+      "JSP",
+      "Hibernate",
+      "Spring Boot",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "MySQL",
+      "REST APIs",
+      "Full Stack Development"
+    ]
+  },
+  {
+    "name": "• Machine Learning Course Completion Certificate – Udemy",
+    "image": "assets/images/ml certificate.jpg",
+    "description": "Successfully completed a Machine Learning course on Udemy, developing an understanding of fundamental machine learning concepts, data preprocessing, feature engineering, and model training. Gained practical experience with supervised learning algorithms, model evaluation, and using Python libraries to build predictive models from datasets.",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Data Preprocessing",
+      "Feature Engineering",
+      "Supervised Learning",
+      "Linear Regression",
+      "Decision Trees",
+      "Random Forest",
+      "Model Evaluation",
+      "Scikit-learn",
+      "Pandas",
+      "NumPy"
+    ]
+  },
+  {
+    "name": "• Data Structures and Algorithms (DSA) Certification - NPTEL",
+    "image": "assets/images/data structure in java.png",
+    "description": "Successfully completed a Data Structures and Algorithms certification, developing a strong foundation in algorithm design, data organization, and computational problem-solving. Gained knowledge of fundamental data structures, searching and sorting algorithms, recursion, and algorithm complexity to solve programming problems efficiently.",
+    "skills": [
+      "Data Structures",
+      "Algorithms",
+      "Java",
+      "Arrays",
+      "Linked Lists",
+      "Stacks",
+      "Queues",
+      "Trees",
+      "Searching Algorithms",
+      "Sorting Algorithms",
+      "Recursion",
+      "Time Complexity",
+      "Space Complexity",
+      "Problem Solving"
+    ]
+  }
+]
