@@ -181,7 +181,7 @@ fetch("data/certifications.json")
 
 // // ── EMAILJS ──
 (function () {
-  emailjs.init(EMAILJS_CONFIG.PUBLIC_KEY);
+  emailjs.init(PUBLIC_KEY);
 })();
 
 document.getElementById("contact-form").addEventListener("submit", function (e) {
@@ -190,7 +190,7 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
   btn.textContent = "Sending...";
   btn.disabled = true;
 
-  emailjs.sendForm(EMAILJS_CONFIG.SERVICE_ID, EMAILJS_CONFIG.TEMPLATE_ID, this)
+  emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, this)
     .then(() => {
       alert("Message sent successfully!");
       this.reset();
