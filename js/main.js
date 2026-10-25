@@ -1,5 +1,5 @@
 // Load skills
-fetch("data/skills.json")
+fetch("./data/skills.json")
   .then(res => res.json())
   .then(data => {
     const container = document.getElementById("skills-container");
@@ -13,7 +13,7 @@ fetch("data/skills.json")
   });
 
 // Load projects
-fetch("data/projects.json")
+fetch("./data/projects.json")
   .then(res => res.json())
   .then(data => {
     const container = document.getElementById("projects-container");
@@ -34,7 +34,7 @@ fetch("data/projects.json")
   });
   
   // Load certifications
-fetch("data/certifications.json")
+fetch("./data/certifications.json")
   .then(res => res.json())
   .then(data => {
     const container = document.getElementById("certifications-container");

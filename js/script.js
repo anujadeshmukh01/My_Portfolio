@@ -45,7 +45,7 @@ const skillIcons = {
   "AWS": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
 };
 
-fetch("data/skills.json")
+fetch("./data/skills.json")
   .then(res => res.json())
   .then(data => {
     const container = document.getElementById("skills-container");
@@ -96,7 +96,7 @@ document.addEventListener("click", function (e) {
 });
 
 /// Load projects
-fetch("data/projects.json")
+fetch("./data/projects.json")
   .then(res => res.json())
   .then(data => {
     const c = document.getElementById("projects-container");
@@ -151,7 +151,7 @@ function toggleProjectDetails(id, btn) {
 }
 
 // Load certifications — FIXED (was using wrong variable name before)
-fetch("data/certifications.json")
+fetch("./data/certifications.json")
   .then(res => res.json())
   .then(data => {
     const c = document.getElementById("certifications-container");
@@ -190,11 +190,7 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
   btn.textContent = "Sending...";
   btn.disabled = true;
 
-<<<<<<< Updated upstream
   emailjs.sendForm("service_g5b4rll", "template_87sxdso", this)
-=======
-  emailjs.sendForm(, EMAILJS_CONFIG.TEMPLATE_ID, this)
->>>>>>> Stashed changes
     .then(() => {
       alert("Message sent successfully!");
       this.reset();
