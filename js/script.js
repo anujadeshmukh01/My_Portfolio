@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   emailjs.init({
-    publicKey: EMAILJS_CONFIG.PUBLIC_KEY
+    publicKey: 2daXzNlE7gx-aI0Be
   });
 
   const form = document.getElementById("contact-form");
@@ -182,8 +182,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     try {
       await emailjs.sendForm(
-        EMAILJS_CONFIG.SERVICE_ID,
-        EMAILJS_CONFIG.TEMPLATE_ID,
+       service_7adv11c,
+        template_7sxce4b,
         form
       );
 
