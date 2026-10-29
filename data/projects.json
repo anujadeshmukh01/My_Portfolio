@@ -15,8 +15,8 @@
       "CSS",
       "JavaScript"
     ],
-    "live": "http://foodapp-dev-455.s3-website.eu-north-1.amazonaws.com/home",
-    "github": "https://github.com/shiwamshete24-cmyk/FoodApp"
+    "live": "https://foodapp-frontend-r097.onrender.com",
+    "github": "https://github.com/anujadeshmukh01/foodapp-frontend"
   },
   {
     "name": "StudyNotion – Ed-Tech Learning Platform",
@@ -35,44 +35,10 @@
       "Tailwind CSS"
     ],
     "live": "https://studynotion-codetech.vercel.app/",
-    "github": "https://github.com/shiwamshete24-cmyk/studynotion-codetech"
+    "github": "https://github.com/anujadeshmukh01/studynotion-codetech.git"
   },
-  {
-    "name": "Emotion Detection from Text",
-    "image": "assets/images/project 3.png",
-    "description": "Developed a text-based emotion classification model using a Bidirectional GRU (BiGRU) neural network to identify six emotions: joy, sadness, love, anger, fear, and surprise. Implemented text preprocessing, tokenization, sequence padding, and model evaluation using TensorFlow and Keras. Deployed the trained model using FastAPI REST APIs to return predicted emotions, confidence scores, and emotion-wise probabilities.",
-    "tech": [
-      "Python",
-      "TensorFlow",
-      "Keras",
-      "BiGRU",
-      "NLP",
-      "Pandas",
-      "NumPy",
-      "FastAPI",
-      "Scikit-learn"
-    ],
-    "live": "https://emoji-analysis-prediction.onrender.com/",
-    "github": "https://github.com/shiwamshete24-cmyk/Emotion-Detection-from-Text"
-  },
-  {
-    "name": "Student Social Media and Mental Health Prediction",
-    "image": "assets/images/project 4.png",
-    "description": "Developed a machine learning model to predict students' mental health scores using social media usage, sleep, stress, and lifestyle factors. Implemented data preprocessing, exploratory data analysis, and Random Forest hyperparameter tuning using RandomizedSearchCV. Deployed the trained model using FastAPI to provide real-time predictions through REST APIs.",
-    "tech": [
-      "Python",
-      "Pandas",
-      "NumPy",
-      "Scikit-learn",
-      "FastAPI",
-      "Pydantic",
-      "Seaborn",
-      "Matplotlib",
-      "Joblib"
-    ],
-    "live": "https://mental-health-score-1-y4dl.onrender.com",
-    "github": "https://github.com/shiwamshete24-cmyk/Mental-Health-Score"
-  },
+  
+ 
   {
     "name": "Laptop E-Commerce Website",
     "image": "assets/images/project 5.png",
@@ -87,8 +53,8 @@
       "JDBC",
       "MySQL"
     ],
-    "live": "https://github.com/shiwamshete24-cmyk/eccomerce-laptop-website",
-    "github": "https://github.com/shiwamshete24-cmyk/eccomerce-laptop-website"
+    "live": "https://github.com/anujadeshmukh01/Ecommerce-Laptop-Website.git",
+    "github": "https://github.com/anujadeshmukh01/Ecommerce-Laptop-Website.git"
   },
   {
     "name": "Cake Ordering Website",
@@ -104,26 +70,8 @@
       "Axios",
       "Bootstrap"
     ],
-    "live": "https://github.com/shiwamshete24-cmyk/CakeShop-Website",
-    "github": "https://github.com/shiwamshete24-cmyk/CakeShop-Website"
-  },
-  {
-  "name": "Second-Hand Car Price Prediction and E-Commerce Platform",
-  "image": "assets/images/project 7.png",
-  "description": "Developed a full-stack web application combining a second-hand car marketplace with machine learning-based resale price prediction. Implemented car listing and browsing features to help buyers explore used vehicles and sellers showcase their cars. Integrated a trained machine learning model to estimate resale prices based on vehicle attributes, supporting more informed buying and selling decisions.",
-  "tech": [
-    "Python",
-    "Machine Learning",
-    "Scikit-learn",
-    "Pandas",
-    "NumPy",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "PHP",
-    "MySQL"
-  ],
-  "live": "https://github.com/shiwamshete24-cmyk/Second-Hand-Car-Price-Prediction-and-E-Commerce-Platform",
-  "github": "https://github.com/shiwamshete24-cmyk/Second-Hand-Car-Price-Prediction-and-E-Commerce-Platform"
-}
+    "live": "https://github.com/anujadeshmukh01/react-cake-website",
+    "github": "https://github.com/anujadeshmukh01/react-cake-website"
+  }
+  
 ]

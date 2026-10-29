@@ -15,18 +15,14 @@
         {
             "name": "JavaScript"
         },
-        {
-            "name": "JQuery"
-        },
+        
         {
             "name": "Tailwind CSS"
         },
         {
             "name": "Bootstrap"
-        },
-        {
-            "name": "Angular"
         }
+        
     ],
     "Backend": [
         {
@@ -56,12 +52,7 @@
         {
             "name": "Express.js"
         },
-        {
-            "name": "PHP"
-        },
-        {
-            "name": "MongoDB"
-        },
+        
         {
             "name": "SQL"
         },
@@ -75,13 +66,8 @@
         },
         {
             "name": "JavaScript"
-        },
-        {
-            "name": "Python"
-        },
-        {
-            "name": "C++"
         }
+
     ],
     "Core Computer Science": [
         {
@@ -95,8 +81,6 @@
         },
         {
             "name": "Object-Oriented Programming"
-        },{
-            "name":"Machine Learning"
         }
     ],
   "Tools & Platforms": [

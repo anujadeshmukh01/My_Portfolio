@@ -40,7 +40,7 @@ const skillIcons = {
   "Vercel": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
   "Eclipse": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg",
   "Spring Tool Suite (STS)": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
-  "XAMPP": "https://cdn.simpleicons.org/xampp/F B7A00",
+ "XAMPP": "https://cdn.simpleicons.org/xampp/FB7A00",
   "Jupyter Notebook": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg",
   "AWS": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
 };
@@ -150,69 +150,54 @@ function toggleProjectDetails(id, btn) {
   btn.textContent = isHidden ? "Hide details ▴" : "Show details ▾";
 }
 
-// Load certifications — FIXED (was using wrong variable name before)
-fetch("./data/certifications.json")
-  .then(res => res.json())
-  .then(data => {
-    const c = document.getElementById("certifications-container");
-    c.innerHTML = "";
-    data.forEach(p => {
-      const d = document.createElement("div");
-      d.className = "certifications-card";
-      const skillsTags = (p.skills || []).map(t => `<span class="skills-tag">${t}</span>`).join("");
-      d.innerHTML = `
-        <div class="certifications-thumb">
-          <img src="${p.image}" alt="${p.name}" onerror="this.parentElement.style.background='#1e3a5f'; this.style.display='none'">
-        </div>
-        <div class="certifications-info">
-          <h3>${p.name}</h3>
-          <p>${p.description || ""}</p>
-          <div class="skills-tags">${skillsTags}</div>
-        </div>
-      `;
-      c.appendChild(d);
-    });
-  })
-  .catch(() => {
-    document.getElementById("certifications-container").innerHTML = "<p>Could not load certifications.</p>";
-  });
-
 
 
 // // ── EMAILJS ──
-(function () {
-  emailjs.init("VmoXYSbsh4kZy8rOD");
-})();
+document.addEventListener("DOMContentLoaded", function () {
+  if (typeof emailjs === "undefined") {
+    console.error("EmailJS SDK not loaded.");
+    return;
+  }
 
-document.getElementById("contact-form").addEventListener("submit", function (e) {
-  e.preventDefault();
-  const btn = this.querySelector("button");
-  btn.textContent = "Sending...";
-  btn.disabled = true;
+  emailjs.init({
+    publicKey: EMAILJS_CONFIG.PUBLIC_KEY
+  });
 
-  emailjs.sendForm("service_g5b4rll", "template_87sxdso", this)
-    .then(() => {
+  const form = document.getElementById("contact-form");
+
+  if (!form) {
+    console.error("Contact form not found.");
+    return;
+  }
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const btn = form.querySelector('button[type="submit"]');
+
+    if (btn) {
+      btn.textContent = "Sending...";
+      btn.disabled = true;
+    }
+
+    try {
+      await emailjs.sendForm(
+        EMAILJS_CONFIG.SERVICE_ID,
+        EMAILJS_CONFIG.TEMPLATE_ID,
+        form
+      );
+
       alert("Message sent successfully!");
-      this.reset();
-      btn.textContent = "Send Message";
-      btn.disabled = false;
-    }, () => {
-      alert("Failed to send. Please try again.");
-      btn.textContent = "Send Message";
-      btn.disabled = false;
-    });
-});
-
-
-
-
-// ── SCROLL TO TOP BUTTON ──
-const scrollTopBtn = document.getElementById("scrollTopBtn");
-
-window.addEventListener("scroll", () => {
-  scrollTopBtn.classList.toggle("show", window.scrollY > 300);
-});
-
-scrollTopBtn.addEventListener("click", () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
+      form.reset();
+    } catch (error) {
+      console.error("EmailJS status:", error.status);
+      console.error("EmailJS response:", error.text);
+      alert("Failed to send: " + (error.text || "Please check Console."));
+    } finally {
+      if (btn) {
+        btn.textContent = "Send Message";
+        btn.disabled = false;
+      }
+    }
+  });
 });
