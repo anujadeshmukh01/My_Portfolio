@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   emailjs.init({
-    publicKey: 2daXzNlE7gx-aI0Be
+    publicKey: "2daXzNlE7gx-aI0Be"
   });
 
   const form = document.getElementById("contact-form");
@@ -182,8 +182,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     try {
       await emailjs.sendForm(
-       service_7adv11c,
-        template_7sxce4b,
+       "service_7adv11c",
+        "template_7sxce4b",
         form
       );
 
